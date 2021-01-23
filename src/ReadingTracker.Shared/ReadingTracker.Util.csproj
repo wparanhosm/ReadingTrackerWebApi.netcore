@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>ReadingTracker.Util</AssemblyName>
+    <RootNamespace>ReadingTracker.Util</RootNamespace>
+  </PropertyGroup>
+
+</Project>

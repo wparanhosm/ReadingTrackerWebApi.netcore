@@ -1,0 +1,70 @@
+{
+	"id": "c7a24ff2-ece4-e2db-7b8a-7371f2257bcb",
+	"name": "ReadingTracker",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "Login",
+			"description": "",
+			"collectionId": "c7a24ff2-ece4-e2db-7b8a-7371f2257bcb",
+			"order": [
+				"b149dc2c-ac5e-fa39-38de-78337a42b63e"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "ffbf1350-4996-d0ae-c81e-c3dab2d79b0c"
+		}
+	],
+	"folders_order": [
+		"ffbf1350-4996-d0ae-c81e-c3dab2d79b0c"
+	],
+	"timestamp": 1611437657359,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "b149dc2c-ac5e-fa39-38de-78337a42b63e",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:44337/api/login/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "login",
+					"value": "JaneDoe@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "senha",
+					"value": "Jane_Doe",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1611438371550,
+			"name": "Login",
+			"description": "",
+			"collectionId": "c7a24ff2-ece4-e2db-7b8a-7371f2257bcb",
+			"responses": []
+		}
+	]
+}
